@@ -1,0 +1,45 @@
+{
+  "name": "openseadragon-vue-example",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-test": "vue-cli-service build --mode staging"
+  },
+  "dependencies": {
+    "openseadragon": "4.1.0",
+    "vue": "2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-eslint": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "@babel/eslint-parser": "7.21.8",
+    "eslint": "8.42.0",
+    "eslint-plugin-vue": "9.14.1",
+    "node-sass": "5.0.0",
+    "sass": "1.32.0",
+    "sass-loader": "10.2.0",
+    "vue-template-compiler": "2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
