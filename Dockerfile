@@ -1,5 +1,4 @@
-FROM node:14.18.1-alpine3.12
+FROM node:18.16.0-alpine3.18
 COPY ./ /app
 WORKDIR /app
-RUN npm install
-CMD [ "npm", "run", "serve" ]
+CMD [ "./init.sh" ]
